@@ -1,0 +1,56 @@
+www.ambali.com/webService/
+============================================
+1) /registerUser
+============================================
+Request:
+--------
+RegisterUserReq: {
+	UserTypeId: "2";
+	FirstName: "Test";
+	LastName: "User";
+	Gender: "Female";
+	DOB: "12/01/1980";
+	Phone: "7894561263";
+	Mobile: "7894561263";
+	Email: "test@ambali.com";
+	Address: {
+		AddProfType: "AC";
+		HouseNo: "String";
+		Street1: "String";
+		Street2: "String";
+		Landmark: "String";
+		City: "String";
+		State: "String";
+		Country: "String";
+		pincode: "2332532";
+	}	
+	IDProofType" "PP";
+	IDNumber: "2839489248239"
+}
+
+Response:
+---------
+RegisterUserRes: {
+	Status: "Success";
+	StatusCode: "200";
+	Description: "User added Succesfully"
+}
+
+============================================
+2) /addService
+============================================
+Request:
+--------
+AddServiceReq: {
+	UserId: "323187"
+	ServiceTypeId: "FINANCE";
+	ServiceSubTypeId: "Fin3242"
+}
+
+Response:
+---------
+AddServiceRes: {
+	Status: "Success";
+	StatusCode: "200";
+	Description: "Service added Succesfully"
+}
