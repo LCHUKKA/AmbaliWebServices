@@ -1,8 +1,8 @@
-in\ambali\webservice\User.class
-hello\Greeting.class
 in\ambali\webservice\controller\InputController.class
+hello\Greeting.class
 hello\Application.class
+in\ambali\webservice\bo\User.class
 hello\GreetingController.class
 in\ambali\webservice\controller\Application.class
-in\ambali\webservice\Address.class
-in\ambali\webservice\Identity.class
+in\ambali\webservice\bo\Address.class
+in\ambali\webservice\bo\Identity.class

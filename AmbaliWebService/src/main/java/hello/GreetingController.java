@@ -1,12 +1,10 @@
 package hello;
 
 import java.util.concurrent.atomic.AtomicLong;
+
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import in.ambali.webservice.User;
 
 @RestController
 public class GreetingController {
@@ -20,7 +18,7 @@ public class GreetingController {
                             String.format(template, name));
     }
     
-    @RequestMapping(value = "/registerUser", method = RequestMethod.POST)
+    /*@RequestMapping(value = "/registerUser", method = RequestMethod.POST)
     public Greeting registerUser(User user) {
     	System.out.println("User: "+user.getFirstName());
         return new Greeting(counter.incrementAndGet(),
@@ -39,5 +37,5 @@ public class GreetingController {
     	user.setUserTypeId("R");
     	user.setGender("M");
         return user;
-    }
+    }*/
 }
